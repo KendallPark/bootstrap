@@ -8,7 +8,7 @@
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.5/angular.min.js"></script>
-    <script src="ui-bootstrap-tpls-0.4.0.js"></script>
+    <script src="ui-bootstrap-tpls-0.5.0-SNAPSHOT.js"></script>
     <script src="assets/select2.js"></script>
     <script src="assets/ui-select2.js"></script>
     <script src="assets/plunker.js"></script>
@@ -103,7 +103,7 @@
             <p class="btn-group">
                 <a class="btn" href="https://github.com/angular-ui/bootstrap"><i class="icon-github"></i> Code on Github</a>
                 <a class="btn btn-primary" href="https://github.com/angular-ui/bootstrap/tree/gh-pages">
-                    <i class="icon-download-alt icon-white"></i> Download <small>(0.4.0)</small>
+                    <i class="icon-download-alt icon-white"></i> Download <small>(0.5.0-SNAPSHOT)</small>
                 </a>
                 <a class="btn" ng-click="showBuildModal()"><i class="icon-wrench"></i> Create a Build</a>
             </p>
@@ -218,7 +218,7 @@ Provides a simple way to hide and show an element with a css transition</p>
         <div class="row">
             <div class="span12" ng-controller="PlunkerCtrl">
                 <div class="pull-right">
-                    <button class="btn btn-info" id="plunk-btn" ng-click="edit('1.0.5', '2.3.1', '0.4.0', 'collapse')"><i class="icon-edit icon-white"></i> Edit in plunker</button>
+                    <button class="btn btn-info" id="plunk-btn" ng-click="edit('1.0.5', '2.3.1', '0.5.0-SNAPSHOT', 'collapse')"><i class="icon-edit icon-white"></i> Edit in plunker</button>
                 </div>
                 <tabset>
                     <tab heading="Markup">
@@ -275,6 +275,12 @@ Provides a simple way to hide and show an element with a css transition</p>
         <button class="btn btn-small" ng-click="addItem()">Add Item</button>
         <div ng-repeat="item in items">{{item}}</div>
     </accordion-group>
+    <accordion-group>
+        <accordion-heading>
+            I can have markup, too! <i class="icon-check"></i>
+        </accordion-heading>
+        This is just some content to illustrate fancy headings.
+    </accordion-group>
   </accordion>
 </div>
             </div>
@@ -290,7 +296,7 @@ Provides a simple way to hide and show an element with a css transition</p>
         <div class="row">
             <div class="span12" ng-controller="PlunkerCtrl">
                 <div class="pull-right">
-                    <button class="btn btn-info" id="plunk-btn" ng-click="edit('1.0.5', '2.3.1', '0.4.0', 'accordion')"><i class="icon-edit icon-white"></i> Edit in plunker</button>
+                    <button class="btn btn-info" id="plunk-btn" ng-click="edit('1.0.5', '2.3.1', '0.5.0-SNAPSHOT', 'accordion')"><i class="icon-edit icon-white"></i> Edit in plunker</button>
                 </div>
                 <tabset>
                     <tab heading="Markup">
@@ -312,6 +318,12 @@ Provides a simple way to hide and show an element with a css transition</p>
       &lt;p&gt;The body of the accordion group grows to fit the contents&lt;/p&gt;
         &lt;button class=&quot;btn btn-small&quot; ng-click=&quot;addItem()&quot;&gt;Add Item&lt;/button&gt;
         &lt;div ng-repeat=&quot;item in items&quot;&gt;{{item}}&lt;/div&gt;
+    &lt;/accordion-group&gt;
+    &lt;accordion-group&gt;
+        &lt;accordion-heading&gt;
+            I can have markup, too! &lt;i class=&quot;icon-check&quot;&gt;&lt;/i&gt;
+        &lt;/accordion-heading&gt;
+        This is just some content to illustrate fancy headings.
     &lt;/accordion-group&gt;
   &lt;/accordion&gt;
 &lt;/div&gt;</code></pre>
@@ -396,7 +408,7 @@ Provides a simple way to hide and show an element with a css transition</p>
         <div class="row">
             <div class="span12" ng-controller="PlunkerCtrl">
                 <div class="pull-right">
-                    <button class="btn btn-info" id="plunk-btn" ng-click="edit('1.0.5', '2.3.1', '0.4.0', 'alert')"><i class="icon-edit icon-white"></i> Edit in plunker</button>
+                    <button class="btn btn-info" id="plunk-btn" ng-click="edit('1.0.5', '2.3.1', '0.5.0-SNAPSHOT', 'alert')"><i class="icon-edit icon-white"></i> Edit in plunker</button>
                 </div>
                 <tabset>
                     <tab heading="Markup">
@@ -485,7 +497,7 @@ Provides a simple way to hide and show an element with a css transition</p>
         <div class="row">
             <div class="span12" ng-controller="PlunkerCtrl">
                 <div class="pull-right">
-                    <button class="btn btn-info" id="plunk-btn" ng-click="edit('1.0.5', '2.3.1', '0.4.0', 'buttons')"><i class="icon-edit icon-white"></i> Edit in plunker</button>
+                    <button class="btn btn-info" id="plunk-btn" ng-click="edit('1.0.5', '2.3.1', '0.5.0-SNAPSHOT', 'buttons')"><i class="icon-edit icon-white"></i> Edit in plunker</button>
                 </div>
                 <tabset>
                     <tab heading="Markup">
@@ -592,7 +604,7 @@ Provides a simple way to hide and show an element with a css transition</p>
         <div class="row">
             <div class="span12" ng-controller="PlunkerCtrl">
                 <div class="pull-right">
-                    <button class="btn btn-info" id="plunk-btn" ng-click="edit('1.0.5', '2.3.1', '0.4.0', 'carousel')"><i class="icon-edit icon-white"></i> Edit in plunker</button>
+                    <button class="btn btn-info" id="plunk-btn" ng-click="edit('1.0.5', '2.3.1', '0.5.0-SNAPSHOT', 'carousel')"><i class="icon-edit icon-white"></i> Edit in plunker</button>
                 </div>
                 <tabset>
                     <tab heading="Markup">
@@ -744,7 +756,7 @@ The datepicker shows dates that come from other than the main month being displa
         <div class="row">
             <div class="span12" ng-controller="PlunkerCtrl">
                 <div class="pull-right">
-                    <button class="btn btn-info" id="plunk-btn" ng-click="edit('1.0.5', '2.3.1', '0.4.0', 'datepicker')"><i class="icon-edit icon-white"></i> Edit in plunker</button>
+                    <button class="btn btn-info" id="plunk-btn" ng-click="edit('1.0.5', '2.3.1', '0.5.0-SNAPSHOT', 'datepicker')"><i class="icon-edit icon-white"></i> Edit in plunker</button>
                 </div>
                 <tabset>
                     <tab heading="Markup">
@@ -863,7 +875,7 @@ Generic message boxes (title, message and buttons) are also provided for your co
         <div class="row">
             <div class="span12" ng-controller="PlunkerCtrl">
                 <div class="pull-right">
-                    <button class="btn btn-info" id="plunk-btn" ng-click="edit('1.0.5', '2.3.1', '0.4.0', 'dialog')"><i class="icon-edit icon-white"></i> Edit in plunker</button>
+                    <button class="btn btn-info" id="plunk-btn" ng-click="edit('1.0.5', '2.3.1', '0.5.0-SNAPSHOT', 'dialog')"><i class="icon-edit icon-white"></i> Edit in plunker</button>
                 </div>
                 <tabset>
                     <tab heading="Markup">
@@ -1029,7 +1041,7 @@ function TestDialogController($scope, dialog){
         <div class="row">
             <div class="span12" ng-controller="PlunkerCtrl">
                 <div class="pull-right">
-                    <button class="btn btn-info" id="plunk-btn" ng-click="edit('1.0.5', '2.3.1', '0.4.0', 'dropdownToggle')"><i class="icon-edit icon-white"></i> Edit in plunker</button>
+                    <button class="btn btn-info" id="plunk-btn" ng-click="edit('1.0.5', '2.3.1', '0.5.0-SNAPSHOT', 'dropdownToggle')"><i class="icon-edit icon-white"></i> Edit in plunker</button>
                 </div>
                 <tabset>
                     <tab heading="Markup">
@@ -1109,7 +1121,7 @@ function TestDialogController($scope, dialog){
         <div class="row">
             <div class="span12" ng-controller="PlunkerCtrl">
                 <div class="pull-right">
-                    <button class="btn btn-info" id="plunk-btn" ng-click="edit('1.0.5', '2.3.1', '0.4.0', 'modal')"><i class="icon-edit icon-white"></i> Edit in plunker</button>
+                    <button class="btn btn-info" id="plunk-btn" ng-click="edit('1.0.5', '2.3.1', '0.5.0-SNAPSHOT', 'modal')"><i class="icon-edit icon-white"></i> Edit in plunker</button>
                 </div>
                 <tabset>
                     <tab heading="Markup">
@@ -1204,8 +1216,8 @@ function TestDialogController($scope, dialog){
 
     <hr />
     <h4>Limit the maximimum visible page-buttons</h4>
-    <pagination num-pages="bigNoOfPages" current-page="bigCurrentPage" max-size="maxSize" class="pagination-mini" boundary-links="true"></pagination>
-    <pagination rotate="false" num-pages="bigNoOfPages" current-page="bigCurrentPage" max-size="maxSize" class="pagination-mini" boundary-links="true"></pagination>
+    <pagination num-pages="bigNoOfPages" current-page="bigCurrentPage" max-size="maxSize" class="pagination-small" boundary-links="true"></pagination>
+    <pagination rotate="false" num-pages="bigNoOfPages" current-page="bigCurrentPage" max-size="maxSize" class="pagination-small" boundary-links="true"></pagination>
 </div>
 
             </div>
@@ -1274,7 +1286,7 @@ For <code>num-pages</code>,  <code>current-page</code> and <code>on-select-page 
         <div class="row">
             <div class="span12" ng-controller="PlunkerCtrl">
                 <div class="pull-right">
-                    <button class="btn btn-info" id="plunk-btn" ng-click="edit('1.0.5', '2.3.1', '0.4.0', 'pagination')"><i class="icon-edit icon-white"></i> Edit in plunker</button>
+                    <button class="btn btn-info" id="plunk-btn" ng-click="edit('1.0.5', '2.3.1', '0.5.0-SNAPSHOT', 'pagination')"><i class="icon-edit icon-white"></i> Edit in plunker</button>
                 </div>
                 <tabset>
                     <tab heading="Markup">
@@ -1296,8 +1308,8 @@ For <code>num-pages</code>,  <code>current-page</code> and <code>on-select-page 
 
     &lt;hr /&gt;
     &lt;h4&gt;Limit the maximimum visible page-buttons&lt;/h4&gt;
-    &lt;pagination num-pages=&quot;bigNoOfPages&quot; current-page=&quot;bigCurrentPage&quot; max-size=&quot;maxSize&quot; class=&quot;pagination-mini&quot; boundary-links=&quot;true&quot;&gt;&lt;/pagination&gt;
-    &lt;pagination rotate=&quot;false&quot; num-pages=&quot;bigNoOfPages&quot; current-page=&quot;bigCurrentPage&quot; max-size=&quot;maxSize&quot; class=&quot;pagination-mini&quot; boundary-links=&quot;true&quot;&gt;&lt;/pagination&gt;
+    &lt;pagination num-pages=&quot;bigNoOfPages&quot; current-page=&quot;bigCurrentPage&quot; max-size=&quot;maxSize&quot; class=&quot;pagination-small&quot; boundary-links=&quot;true&quot;&gt;&lt;/pagination&gt;
+    &lt;pagination rotate=&quot;false&quot; num-pages=&quot;bigNoOfPages&quot; current-page=&quot;bigCurrentPage&quot; max-size=&quot;maxSize&quot; class=&quot;pagination-small&quot; boundary-links=&quot;true&quot;&gt;&lt;/pagination&gt;
 &lt;/div&gt;
 </code></pre>
                         </div>
@@ -1446,7 +1458,7 @@ appendToBody: false
         <div class="row">
             <div class="span12" ng-controller="PlunkerCtrl">
                 <div class="pull-right">
-                    <button class="btn btn-info" id="plunk-btn" ng-click="edit('1.0.5', '2.3.1', '0.4.0', 'tooltip')"><i class="icon-edit icon-white"></i> Edit in plunker</button>
+                    <button class="btn btn-info" id="plunk-btn" ng-click="edit('1.0.5', '2.3.1', '0.5.0-SNAPSHOT', 'tooltip')"><i class="icon-edit icon-white"></i> Edit in plunker</button>
                 </div>
                 <tabset>
                     <tab heading="Markup">
@@ -1582,7 +1594,7 @@ $tooltipProvider. See the <a href="#tooltip">tooltip</a> section for more inform
         <div class="row">
             <div class="span12" ng-controller="PlunkerCtrl">
                 <div class="pull-right">
-                    <button class="btn btn-info" id="plunk-btn" ng-click="edit('1.0.5', '2.3.1', '0.4.0', 'popover')"><i class="icon-edit icon-white"></i> Edit in plunker</button>
+                    <button class="btn btn-info" id="plunk-btn" ng-click="edit('1.0.5', '2.3.1', '0.5.0-SNAPSHOT', 'popover')"><i class="icon-edit icon-white"></i> Edit in plunker</button>
                 </div>
                 <tabset>
                     <tab heading="Markup">
@@ -1688,7 +1700,7 @@ $tooltipProvider. See the <a href="#tooltip">tooltip</a> section for more inform
         <div class="row">
             <div class="span12" ng-controller="PlunkerCtrl">
                 <div class="pull-right">
-                    <button class="btn btn-info" id="plunk-btn" ng-click="edit('1.0.5', '2.3.1', '0.4.0', 'progressbar')"><i class="icon-edit icon-white"></i> Edit in plunker</button>
+                    <button class="btn btn-info" id="plunk-btn" ng-click="edit('1.0.5', '2.3.1', '0.5.0-SNAPSHOT', 'progressbar')"><i class="icon-edit icon-white"></i> Edit in plunker</button>
                 </div>
                 <tabset>
                     <tab heading="Markup">
@@ -1830,10 +1842,11 @@ $tooltipProvider. See the <a href="#tooltip">tooltip</a> section for more inform
         <div class="row">
             <div class="span6">
                 <div ng-controller="RatingDemoCtrl">
-    <rating value="rate" max="10" readonly="isReadonly"></rating>
+    <rating value="rate" max="max" readonly="isReadonly" on-hover="hoveringOver(value)" on-leave="overStar = null"></rating>
+    <span class="badge badge-inverse" ng-show="overStar && !isReadonly">{{overStar}} / {{max}}</span>
 
     <hr/>
-    <pre>Rate: <b>{{rate}}</b>  - Readonly is: <i>{{isReadonly}}</i></pre>
+    <pre>Rate: <b>{{rate}}</b> - Readonly is: <i>{{isReadonly}}</i> - Hovering over: <b>{{overStar || "none"}}</b></pre>
 
     <hr/>
     <button class="btn btn-small btn-danger" ng-click="rate = 0" ng-disabled="isReadonly">Clear</button>
@@ -1843,23 +1856,24 @@ $tooltipProvider. See the <a href="#tooltip">tooltip</a> section for more inform
             <div class="span6">
                 <p>Rating directive that will take care of visualising a star rating bar.</p>
 
-<p>It also provides optional attribute <code>max</code> to vary the number of stars and <code>readonly</code> attribute to diasble user's interaction.</p>
+<p>It also provides optional attributes: <code>max</code> to vary the number of stars, <code>readonly</code> to disable user's interaction, <code>on-hover</code> to signal when the user's mouse is over a particular star, and <code>on-leave</code> to signal when the mouse leaves the control altogether.</p>
             </div>
         </div>
         <hr>
         <div class="row">
             <div class="span12" ng-controller="PlunkerCtrl">
                 <div class="pull-right">
-                    <button class="btn btn-info" id="plunk-btn" ng-click="edit('1.0.5', '2.3.1', '0.4.0', 'rating')"><i class="icon-edit icon-white"></i> Edit in plunker</button>
+                    <button class="btn btn-info" id="plunk-btn" ng-click="edit('1.0.5', '2.3.1', '0.5.0-SNAPSHOT', 'rating')"><i class="icon-edit icon-white"></i> Edit in plunker</button>
                 </div>
                 <tabset>
                     <tab heading="Markup">
                         <div plunker-content="markup">
                             <pre ng-non-bindable><code data-language="html">&lt;div ng-controller=&quot;RatingDemoCtrl&quot;&gt;
-    &lt;rating value=&quot;rate&quot; max=&quot;10&quot; readonly=&quot;isReadonly&quot;&gt;&lt;/rating&gt;
+    &lt;rating value=&quot;rate&quot; max=&quot;max&quot; readonly=&quot;isReadonly&quot; on-hover=&quot;hoveringOver(value)&quot; on-leave=&quot;overStar = null&quot;&gt;&lt;/rating&gt;
+    &lt;span class=&quot;badge badge-inverse&quot; ng-show=&quot;overStar &amp;&amp; !isReadonly&quot;&gt;{{overStar}} / {{max}}&lt;/span&gt;
 
     &lt;hr/&gt;
-    &lt;pre&gt;Rate: &lt;b&gt;{{rate}}&lt;/b&gt;  - Readonly is: &lt;i&gt;{{isReadonly}}&lt;/i&gt;&lt;/pre&gt;
+    &lt;pre&gt;Rate: &lt;b&gt;{{rate}}&lt;/b&gt; - Readonly is: &lt;i&gt;{{isReadonly}}&lt;/i&gt; - Hovering over: &lt;b&gt;{{overStar || &quot;none&quot;}}&lt;/b&gt;&lt;/pre&gt;
 
     &lt;hr/&gt;
     &lt;button class=&quot;btn btn-small btn-danger&quot; ng-click=&quot;rate = 0&quot; ng-disabled=&quot;isReadonly&quot;&gt;Clear&lt;/button&gt;
@@ -1871,7 +1885,11 @@ $tooltipProvider. See the <a href="#tooltip">tooltip</a> section for more inform
                         <div plunker-content="javascript">
                             <pre ng-non-bindable><code data-language="javascript">var RatingDemoCtrl = function ($scope) {
   $scope.rate = 7;
+  $scope.max = 10;
   $scope.isReadonly = false;
+  $scope.hoveringOver = function(value) {
+    $scope.overStar = value;
+  };
 };
 </code></pre>
                         </div>
@@ -1882,7 +1900,11 @@ $tooltipProvider. See the <a href="#tooltip">tooltip</a> section for more inform
       </section>
       <script>var RatingDemoCtrl = function ($scope) {
   $scope.rate = 7;
+  $scope.max = 10;
   $scope.isReadonly = false;
+  $scope.hoveringOver = function(value) {
+    $scope.overStar = value;
+  };
 };
 </script>
     
@@ -1962,7 +1984,7 @@ $tooltipProvider. See the <a href="#tooltip">tooltip</a> section for more inform
         <div class="row">
             <div class="span12" ng-controller="PlunkerCtrl">
                 <div class="pull-right">
-                    <button class="btn btn-info" id="plunk-btn" ng-click="edit('1.0.5', '2.3.1', '0.4.0', 'tabs')"><i class="icon-edit icon-white"></i> Edit in plunker</button>
+                    <button class="btn btn-info" id="plunk-btn" ng-click="edit('1.0.5', '2.3.1', '0.5.0-SNAPSHOT', 'tabs')"><i class="icon-edit icon-white"></i> Edit in plunker</button>
                 </div>
                 <tabset>
                     <tab heading="Markup">
@@ -2094,7 +2116,7 @@ $tooltipProvider. See the <a href="#tooltip">tooltip</a> section for more inform
         <div class="row">
             <div class="span12" ng-controller="PlunkerCtrl">
                 <div class="pull-right">
-                    <button class="btn btn-info" id="plunk-btn" ng-click="edit('1.0.5', '2.3.1', '0.4.0', 'timepicker')"><i class="icon-edit icon-white"></i> Edit in plunker</button>
+                    <button class="btn btn-info" id="plunk-btn" ng-click="edit('1.0.5', '2.3.1', '0.5.0-SNAPSHOT', 'timepicker')"><i class="icon-edit icon-white"></i> Edit in plunker</button>
                 </div>
                 <tabset>
                     <tab heading="Markup">
@@ -2188,7 +2210,7 @@ $tooltipProvider. See the <a href="#tooltip">tooltip</a> section for more inform
             <div class="span6">
                 <div class='container-fluid' ng-controller="TypeaheadCtrl">
     <pre>Model: {{selected| json}}</pre>
-    <input type="text" ng-model="selected" typeahead="state for state in states | filter:$viewValue">
+    <input type="text" ng-model="selected" typeahead="state for state in states | filter:$viewValue | limitTo:8">
 </div>
             </div>
             <div class="span6">
@@ -2208,14 +2230,14 @@ $tooltipProvider. See the <a href="#tooltip">tooltip</a> section for more inform
         <div class="row">
             <div class="span12" ng-controller="PlunkerCtrl">
                 <div class="pull-right">
-                    <button class="btn btn-info" id="plunk-btn" ng-click="edit('1.0.5', '2.3.1', '0.4.0', 'typeahead')"><i class="icon-edit icon-white"></i> Edit in plunker</button>
+                    <button class="btn btn-info" id="plunk-btn" ng-click="edit('1.0.5', '2.3.1', '0.5.0-SNAPSHOT', 'typeahead')"><i class="icon-edit icon-white"></i> Edit in plunker</button>
                 </div>
                 <tabset>
                     <tab heading="Markup">
                         <div plunker-content="markup">
                             <pre ng-non-bindable><code data-language="html">&lt;div class=&#x27;container-fluid&#x27; ng-controller=&quot;TypeaheadCtrl&quot;&gt;
     &lt;pre&gt;Model: {{selected| json}}&lt;/pre&gt;
-    &lt;input type=&quot;text&quot; ng-model=&quot;selected&quot; typeahead=&quot;state for state in states | filter:$viewValue&quot;&gt;
+    &lt;input type=&quot;text&quot; ng-model=&quot;selected&quot; typeahead=&quot;state for state in states | filter:$viewValue | limitTo:8&quot;&gt;
 &lt;/div&gt;</code></pre>
                         </div>
                     </tab>
